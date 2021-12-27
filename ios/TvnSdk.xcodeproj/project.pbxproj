@@ -7,10 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		5E555C0D2413F4C50049A1A2 /* TvnSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* TvnSdk.m */; };
-		F4FF95D7245B92E800C19C63 /*  TvnSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  TvnSdk.swift */; };
-
+		106F75822779BC1E004EED58 /* RCTAgoraRtcChannelModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F756B2779BC1E004EED58 /* RCTAgoraRtcChannelModule.swift */; };
+		106F75832779BC1E004EED58 /* PromiseCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F756D2779BC1E004EED58 /* PromiseCallback.swift */; };
+		106F75842779BC1E004EED58 /* RCTAgoraRtcEngineModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F756E2779BC1E004EED58 /* RCTAgoraRtcEngineModule.swift */; };
+		106F75852779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F756F2779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManager.swift */; };
+		106F75862779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 106F75702779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManagerBridge.m */; };
+		106F75872779BC1E004EED58 /* RCTAgoraRtcEngineModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 106F75712779BC1E004EED58 /* RCTAgoraRtcEngineModuleBridge.m */; };
+		106F75882779BC1E004EED58 /* RCTAgoraRtcChannelModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 106F75722779BC1E004EED58 /* RCTAgoraRtcChannelModuleBridge.m */; };
+		106F75892779BC1E004EED58 /* RtcEnginePluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F75742779BC1E004EED58 /* RtcEnginePluginRegistrant.swift */; };
+		106F758A2779BC1E004EED58 /* RtcEngineEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F75752779BC1E004EED58 /* RtcEngineEvent.swift */; };
+		106F758B2779BC1E004EED58 /* RtcSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F75762779BC1E004EED58 /* RtcSurfaceView.swift */; };
+		106F758C2779BC1E004EED58 /* MediaObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F75772779BC1E004EED58 /* MediaObserver.swift */; };
+		106F758D2779BC1E004EED58 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F75782779BC1E004EED58 /* Extensions.swift */; };
+		106F758E2779BC1E004EED58 /* RtcEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F75792779BC1E004EED58 /* RtcEngine.swift */; };
+		106F758F2779BC1E004EED58 /* RtcEngineRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F757C2779BC1E004EED58 /* RtcEngineRegistry.swift */; };
+		106F75902779BC1E004EED58 /* BeanCovertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F757D2779BC1E004EED58 /* BeanCovertor.swift */; };
+		106F75912779BC1E004EED58 /* RtcChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F757E2779BC1E004EED58 /* RtcChannel.swift */; };
+		106F75922779BC1E004EED58 /* Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F75802779BC1E004EED58 /* Callback.swift */; };
+		106F75932779BC1E004EED58 /* RtcChannelEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F75812779BC1E004EED58 /* RtcChannelEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,12 +40,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		106F756B2779BC1E004EED58 /* RCTAgoraRtcChannelModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTAgoraRtcChannelModule.swift; sourceTree = "<group>"; };
+		106F756C2779BC1E004EED58 /* RCTAgora-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTAgora-bridging-header.h"; sourceTree = "<group>"; };
+		106F756D2779BC1E004EED58 /* PromiseCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseCallback.swift; sourceTree = "<group>"; };
+		106F756E2779BC1E004EED58 /* RCTAgoraRtcEngineModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTAgoraRtcEngineModule.swift; sourceTree = "<group>"; };
+		106F756F2779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTAgoraRtcSurfaceViewManager.swift; sourceTree = "<group>"; };
+		106F75702779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAgoraRtcSurfaceViewManagerBridge.m; sourceTree = "<group>"; };
+		106F75712779BC1E004EED58 /* RCTAgoraRtcEngineModuleBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAgoraRtcEngineModuleBridge.m; sourceTree = "<group>"; };
+		106F75722779BC1E004EED58 /* RCTAgoraRtcChannelModuleBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAgoraRtcChannelModuleBridge.m; sourceTree = "<group>"; };
+		106F75742779BC1E004EED58 /* RtcEnginePluginRegistrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RtcEnginePluginRegistrant.swift; sourceTree = "<group>"; };
+		106F75752779BC1E004EED58 /* RtcEngineEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RtcEngineEvent.swift; sourceTree = "<group>"; };
+		106F75762779BC1E004EED58 /* RtcSurfaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RtcSurfaceView.swift; sourceTree = "<group>"; };
+		106F75772779BC1E004EED58 /* MediaObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaObserver.swift; sourceTree = "<group>"; };
+		106F75782779BC1E004EED58 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		106F75792779BC1E004EED58 /* RtcEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RtcEngine.swift; sourceTree = "<group>"; };
+		106F757A2779BC1E004EED58 /* RtcEnginePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtcEnginePlugin.h; sourceTree = "<group>"; };
+		106F757B2779BC1E004EED58 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		106F757C2779BC1E004EED58 /* RtcEngineRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RtcEngineRegistry.swift; sourceTree = "<group>"; };
+		106F757D2779BC1E004EED58 /* BeanCovertor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeanCovertor.swift; sourceTree = "<group>"; };
+		106F757E2779BC1E004EED58 /* RtcChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RtcChannel.swift; sourceTree = "<group>"; };
+		106F757F2779BC1E004EED58 /* AgoraRtcEngineKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraRtcEngineKit.h; sourceTree = "<group>"; };
+		106F75802779BC1E004EED58 /* Callback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Callback.swift; sourceTree = "<group>"; };
+		106F75812779BC1E004EED58 /* RtcChannelEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RtcChannelEvent.swift; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libTvnSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTvnSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
-		B3E7B5891CC2AC0600A0062D /* TvnSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TvnSdk.m; sourceTree = "<group>"; };
-		F4FF95D5245B92E700C19C63 /* TvnSdk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TvnSdk-Bridging-Header.h"; sourceTree = "<group>"; };
-		F4FF95D6245B92E800C19C63 /* TvnSdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvnSdk.swift; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +76,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		106F75692779BC1E004EED58 /* RCTTvnSdk */ = {
+			isa = PBXGroup;
+			children = (
+				106F756A2779BC1E004EED58 /* React */,
+				106F75732779BC1E004EED58 /* Base */,
+			);
+			path = RCTTvnSdk;
+			sourceTree = "<group>";
+		};
+		106F756A2779BC1E004EED58 /* React */ = {
+			isa = PBXGroup;
+			children = (
+				106F756B2779BC1E004EED58 /* RCTAgoraRtcChannelModule.swift */,
+				106F756C2779BC1E004EED58 /* RCTAgora-bridging-header.h */,
+				106F756D2779BC1E004EED58 /* PromiseCallback.swift */,
+				106F756E2779BC1E004EED58 /* RCTAgoraRtcEngineModule.swift */,
+				106F756F2779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManager.swift */,
+				106F75702779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManagerBridge.m */,
+				106F75712779BC1E004EED58 /* RCTAgoraRtcEngineModuleBridge.m */,
+				106F75722779BC1E004EED58 /* RCTAgoraRtcChannelModuleBridge.m */,
+			);
+			path = React;
+			sourceTree = "<group>";
+		};
+		106F75732779BC1E004EED58 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				106F75742779BC1E004EED58 /* RtcEnginePluginRegistrant.swift */,
+				106F75752779BC1E004EED58 /* RtcEngineEvent.swift */,
+				106F75762779BC1E004EED58 /* RtcSurfaceView.swift */,
+				106F75772779BC1E004EED58 /* MediaObserver.swift */,
+				106F75782779BC1E004EED58 /* Extensions.swift */,
+				106F75792779BC1E004EED58 /* RtcEngine.swift */,
+				106F757A2779BC1E004EED58 /* RtcEnginePlugin.h */,
+				106F757B2779BC1E004EED58 /* .gitignore */,
+				106F757C2779BC1E004EED58 /* RtcEngineRegistry.swift */,
+				106F757D2779BC1E004EED58 /* BeanCovertor.swift */,
+				106F757E2779BC1E004EED58 /* RtcChannel.swift */,
+				106F757F2779BC1E004EED58 /* AgoraRtcEngineKit.h */,
+				106F75802779BC1E004EED58 /* Callback.swift */,
+				106F75812779BC1E004EED58 /* RtcChannelEvent.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +132,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
-				F4FF95D6245B92E800C19C63 /* TvnSdk.swift */,
-				B3E7B5891CC2AC0600A0062D /* TvnSdk.m */,
-				F4FF95D5245B92E700C19C63 /* TvnSdk-Bridging-Header.h */,
-
+				106F75692779BC1E004EED58 /* RCTTvnSdk */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,10 +194,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-				F4FF95D7245B92E800C19C63 /* TvnSdk.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* TvnSdk.m in Sources */,
-
+				106F75842779BC1E004EED58 /* RCTAgoraRtcEngineModule.swift in Sources */,
+				106F75862779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManagerBridge.m in Sources */,
+				106F75882779BC1E004EED58 /* RCTAgoraRtcChannelModuleBridge.m in Sources */,
+				106F75892779BC1E004EED58 /* RtcEnginePluginRegistrant.swift in Sources */,
+				106F758B2779BC1E004EED58 /* RtcSurfaceView.swift in Sources */,
+				106F75902779BC1E004EED58 /* BeanCovertor.swift in Sources */,
+				106F75932779BC1E004EED58 /* RtcChannelEvent.swift in Sources */,
+				106F75852779BC1E004EED58 /* RCTAgoraRtcSurfaceViewManager.swift in Sources */,
+				106F75872779BC1E004EED58 /* RCTAgoraRtcEngineModuleBridge.m in Sources */,
+				106F75922779BC1E004EED58 /* Callback.swift in Sources */,
+				106F758D2779BC1E004EED58 /* Extensions.swift in Sources */,
+				106F758E2779BC1E004EED58 /* RtcEngine.swift in Sources */,
+				106F758C2779BC1E004EED58 /* MediaObserver.swift in Sources */,
+				106F758F2779BC1E004EED58 /* RtcEngineRegistry.swift in Sources */,
+				106F75832779BC1E004EED58 /* PromiseCallback.swift in Sources */,
+				106F75912779BC1E004EED58 /* RtcChannel.swift in Sources */,
+				106F758A2779BC1E004EED58 /* RtcEngineEvent.swift in Sources */,
+				106F75822779BC1E004EED58 /* RCTAgoraRtcChannelModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,11 +324,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = TvnSdk;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "TvnSdk-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Debug;
 		};
@@ -259,10 +343,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = TvnSdk;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "TvnSdk-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Release;
 		};
