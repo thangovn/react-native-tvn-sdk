@@ -76,13 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		106F75692779BC1E004EED58 /* RCTTvnSdk */ = {
+		106F75692779BC1E004EED58 /* RCTAgora */ = {
 			isa = PBXGroup;
 			children = (
 				106F756A2779BC1E004EED58 /* React */,
 				106F75732779BC1E004EED58 /* Base */,
 			);
-			path = RCTTvnSdk;
+			path = RCTAgora;
 			sourceTree = "<group>";
 		};
 		106F756A2779BC1E004EED58 /* React */ = {
@@ -132,7 +132,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				106F75692779BC1E004EED58 /* RCTTvnSdk */,
+				106F75692779BC1E004EED58 /* RCTAgora */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
