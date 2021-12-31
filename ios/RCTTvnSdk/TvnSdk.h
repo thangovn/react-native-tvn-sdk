@@ -6,9 +6,7 @@
 //  Copyright © 2021 Facebook. All rights reserved.
 //
 
-#ifndef TvnSdk_h
-#define TvnSdk_h
 #import "TiUIManager.h"
 #import <TiSDK/TiSDKInterface.h>
 
-#endif /* TvnSdk_h */
+
