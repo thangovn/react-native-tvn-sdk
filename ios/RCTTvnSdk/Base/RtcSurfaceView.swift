@@ -8,6 +8,8 @@ class RtcSurfaceView: UIView {
     private weak var channel: AgoraRtcChannel?
 
     override init(frame: CGRect) {
+        let key = "eacfb2ab6dab424ca50cdbae1d62d968"
+        TiSDK.shareInstance().initSDK(key, with: nil)
         surface = UIView(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: frame.size))
         canvas = AgoraRtcVideoCanvas()
         canvas.view = surface

@@ -1,5 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <AgoraRtcKit/AgoraRtcEngineKit.h>
+#import "TiUIManager.h"
+#import <TiSDK/TiSDKInterface.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

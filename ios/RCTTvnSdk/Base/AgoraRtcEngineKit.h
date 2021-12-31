@@ -7,6 +7,8 @@
 //
 
 #import <AgoraRtcKit/AgoraRtcEngineKit.h>
+#import "TiUIManager.h"
+#import <TiSDK/TiSDKInterface.h>
 
 typedef NS_ENUM(NSUInteger, AgoraRtcQualityReportFormat) {
   AgoraRtc_QualityReportFormat_Json = 0,
