@@ -1,5 +1,5 @@
 {
-  "name": "react-native-tvn-sdk",
+  "name": "react-native-tvn-viewer",
   "version": "1.0.0",
   "description": "tvn sdk live streaming",
   "main": "lib/commonjs/index",
